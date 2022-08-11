@@ -325,5 +325,33 @@
   429  reboot
   430  history
 ```
+#
+- prometheus.yml 
+```
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+# By default, scrape targets every 15 seconds.
+ # Attach these labels to any time series or alerts when communicating with 
+ # external systems (federation, remote storage, Alertmanager).
+# external_labels:
+ #  monitor: 'node'
+# A scrape configuration containing exactly one endpoint to scrape:
+# Here it's Prometheus itself. 
+scrape_configs:
+  # The job name is added as a label `job=<job_name>` to any timeseries scraped from this config.
 
+    # Override the global default and scrape targets from this job every 5 seconds.
+    #scrape_interval: 5s 
+  - job_name: 'prometheus'
+    static_configs:
+      - targets: ['172.28.4.244:9090']
+  - job_name: 'node-exporter'
+    static_configs:
+      - targets: ['172.28.4.244:9100']
+  - job_name: 'win10'
+    static_configs:
+      - targets: ['172.28.4.103:9182']
+
+```
 
