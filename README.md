@@ -1,5 +1,8 @@
 # docker_prometheus_grafana_test
 
+
+- docker + prometheus + grafana 
+```
   110  docker ps -a
   111  docker pull bitnami/prometheus:latest
   112  docker ps 0a
@@ -321,3 +324,6 @@
   428  docker ps -a
   429  reboot
   430  history
+```
+
+
