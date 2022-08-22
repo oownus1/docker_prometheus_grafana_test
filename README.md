@@ -10,6 +10,7 @@
 argon2:$argon2id$v=19$m=10240,t=10,p=8$SqgKSnEPUD5I43NAXfKtdA$yj5wlHpZh4MTIIRbS2Gc04Fobd1zmyqHbSJXsOIZG0w 
 
 - docker + prometheus + grafana 
+- 수행한 명렁
 ```
     1  whoami
     2  cd /bin/bash
