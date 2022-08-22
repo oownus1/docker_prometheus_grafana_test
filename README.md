@@ -11,6 +11,115 @@ argon2:$argon2id$v=19$m=10240,t=10,p=8$SqgKSnEPUD5I43NAXfKtdA$yj5wlHpZh4MTIIRbS2
 
 - docker + prometheus + grafana 
 ```
+    1  whoami
+    2  cd /bin/bash
+    3  cd bin
+    4  ls
+    5  su - niceadmin
+    6  ./vcpkg/bootstrap-vcpkg.bat
+    7  ls
+    8  cd vcpkg
+    9  bootstrap-vcpkg.bat
+   10  search freetype
+   11  install cuda intel-mkl fftw3 cub kenlm arrayfire[cuda] cudnn nccl openmpi cereal stb gflags glog libsndfile gtest
+   12  install cuda intel-mkl fftw3 cub kenlm arrayfire[cuda] cudnn nccl openmpi cereal stb gflags glog libsndfile
+   13  niceadmin
+   14  su niceadmin
+   15  activate pororo_36
+   16  conda env list
+   17  niceadming
+   18  niceadmin
+   19  conda niceadmin
+   20  login niceadmin
+   21  cd ..
+   22  cd ..
+   23  docker images
+   24  docker pull grafana/grafana
+   25  docker images
+   26  docker ps
+   27  docker run -d --name=grafana -p 3000:3000 grafana/grafana
+   28  docker ps -a
+   29  su niceadmin
+   30  su niceadmin
+   31  sudo nano /etc/systemd/system/vncserver@1.service
+   32  sudo systemctl daemon-reload
+   33  sudo systemctl enable vncserver@1.service
+   34  sudo systemctl start vncserver@1.service
+   35  sudo systemctl status vncserver@1.service
+   36  sudo nano /etc/systemd/system/vncserver@1.service
+   37  sudo systemctl daemon-reload
+   38  sudo systemctl enable vncserver@1.service
+   39  sudo systemctl start vncserver@1.service
+   40  sudo systemctl status vncserver@1.service
+   41  sudo nano /etc/systemd/system/vncserver@1.service
+   42  sudo systemctl daemon-reload
+   43  sudo systemctl enable vncserver@1.service
+   44  sudo systemctl start vncserver@1.service
+   45  sudo systemctl status vncserver@1.service
+   46  vncserver -list
+   47  sudo apt-get install tigervnc-standalone-server tigervnc-xorg-extension
+   48  vncpasswd
+   49  sudo nano ~/.vnc/xstartup
+   50  vncserver -localhost no
+   51  vncserver -list
+   52  history
+   53  ipconfig
+   54  ifconfig
+   55  nmcli g
+   56  nmcli n
+   57  nmcli d
+   58  ifconfig
+   59  apt install net-tools
+   60  ifconfig
+   61  apt list openshh*
+   62  apt install openssh-server
+   63  apt list openshh*
+   64  apt-get list openshh*
+   65  apt list openshh*
+   66  systemctl status sshd
+   67  ss -nlt
+   68  iptables -nL
+   69  ufw staus
+   70  apt install ufw
+   71  ufw status
+   72  ufw enable
+   73  ufw allow 22/tcp
+   74  sudo apt-get install openssh-server
+   75  sudo vi /ect/ssh/sshd_config
+   76  sudo service ssh start
+   77  shdo service ssh stop
+   78  sudo service ssh status
+   79  sudo ufw enable
+   80  sudo ufw allow 22
+   81  hostname -l
+   82  ssh -p 22 mesf-if@10.115.226.50
+   83  host -L
+   84  host -l
+   85  ssh -p mesf-if@10.115.226.50
+   86  ssh -p 22 mesf-if@10.115.226.50
+   87  ssh -p 22 oradmin@10.115.226.50
+   88  ssh -p 22 otadmin@10.115.226.50
+   89  sudo apt-get install ssh
+   90  sudo apt-get install -f
+   91  sudo vi /ect/ssh/sshd_config
+   92  shdo nano /etc/ssh/sshd_config
+   93  sudo nano /etc/ssh/sshd_config
+   94  sudo service ssh start
+   95  sudo sercice ssh stop
+   96  sudo service ssh stop
+   97  sudo service ssh status
+   98  sudo service ssh start
+   99  sudo service ssh status
+  100  sudo service ssh stop
+  101  sudo nano /etc/ssh/sshd_config
+  102  sudo service ssh start
+  103  sudo service ssh status
+  104  ps -ef | grep sshd
+  105  ifconfig
+  106  sudo netstat -ntlp |grep sshd
+  107  ifconfig
+  108  ssh -p 22 mesf-if@10.115.226.50
+  109  ssh -p 22 otadmin@10.115.226.50
   110  docker ps -a
   111  docker pull bitnami/prometheus:latest
   112  docker ps 0a
